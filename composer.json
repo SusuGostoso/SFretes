@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "": "vendor\\susubr\\php-classes\\src"
+            "SFretes\\": "vendor\\susubr\\php-classes\\src"
         }
     }
 }

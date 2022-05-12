@@ -8,7 +8,12 @@ $app->config('debug', true);
 
 $app->get('/', function() {
     
-	echo "OK";
+	$sql = new SFretes\DB\Sql();
+
+	$results = $sql->select("SELECT * FROM cad_cliente");
+
+	echo json_encode($results);
+	
 
 });
 
